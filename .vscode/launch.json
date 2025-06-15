@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug: firelyCsharpFhir",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-firelyCsharpFhir",
+      "program": "${workspaceFolder}/bin/Debug/net9.0/firelyCsharpFhir.dll",
+      "args": [
+        "Patient/22"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    }
+  ]
+}
